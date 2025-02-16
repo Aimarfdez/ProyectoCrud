@@ -1,5 +1,12 @@
 README - Mejoras en el CRUD de Clientes en PHP
 
+USUARIOS INICIO SESION:
+
+usuario1 , password:usuario 1 ---> Sin permisos
+usuario2 , password:usuario2 ---> Con permisos
+
+
+
 Descripción del Proyecto
 
 Este proyecto consiste en un sistema CRUD de gestión de clientes desarrollado en PHP, con mejoras enfocadas en la validación de datos, la usabilidad, la seguridad y la visualización de información adicional. Se han implementado diversas optimizaciones y nuevas funcionalidades.
