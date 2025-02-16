@@ -1,8 +1,8 @@
 {
-    "name": "edu/proyecto-crud-paginacion",
+    "name": "aimar/proyecto-crud",
     "autoload": {
         "psr-4": {
-            "Edu\\ProyectoCrudPaginacion\\": "src/"
+            "Aimar\\ProyectoCrud\\": "src/"
         }
     },
     "require": {
