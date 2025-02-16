@@ -1,0 +1,198 @@
+/* Estilos generales */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+  color: #333;
+  font-size: 12px;
+}
+
+/* Contenedor principal */
+#container {
+  max-width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+}
+
+/* Encabezado */
+#header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#header h1 {
+  font-size: 18px;
+  margin: 0;
+  color: #222;
+}
+
+/* Estilos de la tabla */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 5px;
+  text-align: center;
+}
+
+th {
+  background-color: #007BFF;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 6px;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #e9ecef;
+  transition: background 0.3s;
+}
+
+/* Estilos para los botones de ordenación */
+th form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1px 0;
+}
+
+th button {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  border: none;
+  border-radius: 4px;
+  padding: 3px;
+  font-size: 10px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  margin: 1px 0;
+  width: 20px;
+  height: 20px;
+  line-height: 10px;
+}
+
+th button:hover {
+  background: linear-gradient(135deg, #0056b3, #003f7f);
+  transform: scale(1.1);
+}
+
+/* Botones de navegación */
+form button {
+  background-color: #28a745;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 12px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin: 3px;
+}
+
+form button:hover {
+  background-color: #218838;
+}
+
+/* Estilos del login */
+.login-container {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  text-align: center;
+}
+
+.login-container h1 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #333;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container label {
+  margin-bottom: 3px;
+  font-weight: bold;
+  color: #555;
+  font-size: 12px;
+}
+
+.login-container input {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.login-container button {
+  padding: 8px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  #container {
+    padding: 10px;
+  }
+
+  table {
+    font-size: 10px;
+  }
+
+  th, td {
+    padding: 4px;
+  }
+
+  th button {
+    width: 18px;
+    height: 18px;
+    font-size: 9px;
+  }
+
+  form button {
+    font-size: 10px;
+    padding: 4px 8px;
+  }
+
+  .login-container {
+    width: 220px;
+    padding: 10px;
+  }
+
+  .login-container h1 {
+    font-size: 16px;
+  }
+}
