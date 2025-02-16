@@ -2,7 +2,7 @@ README - Mejoras en el CRUD de Clientes en PHP
 
 USUARIOS INICIO SESION:
 
-usuario1 , password:usuario 1 ---> Sin permisos
+usuario1 , password:usuario 1 ---> Sin permisos;
 usuario2 , password:usuario2 ---> Con permisos
 
 
